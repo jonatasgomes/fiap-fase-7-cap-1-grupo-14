@@ -128,6 +128,7 @@ Mesmo fluxo no celular, consumindo a mesma API real — painel (emulador ligado)
 Desafio extra da Fase 7 (notebook + relatório + evidências) — detalhes em [`ir-alem/`](ir-alem/):
 
 - **Ir Além 1 — Mineração de Processos (AIRPA):** fluxo de atendimento de IAM analisado com `pm4py` (4 variantes, gargalos, conformidade Porta-ECG). [colab](https://colab.research.google.com/drive/1_2rVyJkpnlFNUaCK00hJ-5aOWKMyR9Wb) · [notebook](ir-alem/ir-alem-1-colab.ipynb) · [relatório](ir-alem/ir-alem-1-relatorio.pdf).
+- **Ir Além 2 — CBIR (Visão Computacional):** recuperação de radiografias por similaridade semântica (ResNet-50 + FAISS, Precision@K) sobre Chest X-Ray. [colab](https://colab.research.google.com/drive/1kJAxdAqnPFR5Ps2021sR9MzquApAdx_B?usp=sharing) · [relatório](ir-alem/ir-alem-2-relatorio.pdf) · [notebook](ir-alem/ir-alem-2-colab.ipynb).
 
 ## 🗃 Histórico de lançamentos
 
