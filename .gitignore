@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Env / secrets
+.env
+*.env
+!*.env.example
+
+# SQLite
+*.db
+*.db-journal
+*.sqlite3
+
+# Models
+*.joblib
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Node (frontends dos colegas)
+node_modules/
+dist/
+.expo/

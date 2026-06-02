@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CardioIA",
+    "slug": "cardioia-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.cardioia.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0b1329",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "apiUrl": "https://college-anonymous-thesaurus-assumption.trycloudflare.com",
+      "eas": {
+        "projectId": "d1f947e6-06eb-4489-9d23-4ec120e145bd"
+      }
+    },
+    "owner": "jonatasgomes"
+  }
+}
